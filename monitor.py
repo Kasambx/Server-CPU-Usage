@@ -2,9 +2,9 @@ import requests
 import json
 
 # Configuration variables
-WEBSITE_URL = "https://example.com"  # The website URL to monitor
-MONITORING_TOOL_API_KEY = "YOUR_API_KEY"  # The API key/token for the monitoring tool
-ALERT_CONTACT_EMAIL = "sre-team@example.com"  # The email address to send alerts to
+WEBSITE_URL = "https://kasambalumwagi.wixsite.com"  # The website URL to monitor
+MONITORING_TOOL_API_KEY = "5ba005eae0803c9deaa2b4235b5c2aa5"  # The API key/token for the monitoring tool
+ALERT_CONTACT_EMAIL = "kasambalumwagi.com"  # The email address to send alerts to
 ALERT_CONTACT_SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/YOUR_SLACK_WEBHOOK_URL"  # The Slack webhook URL to send alerts to
 
 # Function to send an alert via email
